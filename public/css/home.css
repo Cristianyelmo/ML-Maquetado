@@ -1,0 +1,222 @@
+
+
+
+
+
+.home{
+    background-color: var(--Gris_claro);
+    margin: 0;
+    font-family:var(--Tipografia);
+}
+
+
+
+.home_header{
+    background-color:var(--Amarillo);
+    padding-bottom: 15px;
+}
+
+.home_header_logo{
+    width: 160px;
+     position: relative;
+    top: 18px; 
+    
+}
+
+.home_header_banner{
+    width: 100%;
+}
+
+.home_header_buscador_container_buscadorcontenido{
+    background-color: white;
+   height: 40px;
+   border-radius: 7px;
+   
+ }
+ 
+ 
+ .home_header_buscador_container_buscadorcontenido input{
+     
+         border: 0;
+         padding: 10px;
+         width: 140px;
+        border-radius: 10px;
+ 
+       
+ }
+ 
+ 
+ .home_header_buscador_container{
+     background-color: white;
+     height: 40px;
+     width: 200px;
+     border-radius: 10px;   
+ }
+ 
+ 
+ .home_header_buscador{
+     display: inline-block
+ }
+ 
+ .parrafo{
+     
+     margin: 0;
+     display: inline-block;
+     text-align: center;
+     
+     
+ } 
+ 
+ .home_header_subtitulo{
+     position: relative;
+     left: 50px;
+     margin: 5px;
+ }
+
+
+
+ 
+ 
+
+
+
+.home_main_section article {
+
+  border-radius: 10px 10px;
+  background-color: white;
+   box-shadow: 10px 10px 30px #878787; 
+   margin: 13px;
+
+}
+
+.home_main_section article img{
+
+    width: 100%;
+
+}
+
+.home_main_section article h3{
+
+
+}
+
+
+.home_main_section h1{
+    text-align: center;
+}
+
+.home_main_section h2{
+ 
+   position: relative;
+   left: 40px;
+   
+}
+
+
+
+.home_main_descuento{
+    color:var(--Verde);
+    font-size: var(--Descuentos);
+}
+
+
+.home_main_descripciones{
+    font-size: var(--Descripciones);
+}
+
+
+
+
+
+.home_footer_parrafo{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+
+.home_footer section h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+ }
+
+
+ .home_footer{
+    background-color: white;
+    padding-top: 70px;
+  margin: 5px;
+}
+
+.home_footer section{
+   color:var(--Gris_oscuro);
+   margin: 10px 10px 10px 10px;
+   text-align: center;
+
+   
+}
+
+
+
+.fa-bars{
+    align-items: center;
+}
+
+
+.fa-bars:before, .fa-navicon:before {
+    content: "\f0c9";
+    background-color:var(--Celeste);
+    color: white;
+    padding: 9px;
+    border-radius: 3px;
+    margin-left: 180px;
+    
+   
+}
+
+
+
+ .fa-credit-card:before {
+    content: "\f09d";
+    color: var(--Celeste);
+    font-size: 40px;
+    margin-top: 30px;
+} 
+
+
+.fa-gift:before {
+    content: "\f06b";
+    color: var(--Celeste);
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.fa-shield-halved:before {
+    content: "\f3ed";
+
+    color: var(--Celeste);
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+
+.home_main_section--titulo{
+ font-size: var(--Titulares); 
+}
+
+
+.home_main_section--precio{
+    font-size: var(--Precios);
+}
+
+
+.home_footer_parrafo_final{
+    text-align: center;
+}
+
+
+
+
+
+
+
