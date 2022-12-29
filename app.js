@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const path = require('path')
-const local = 3030
+const local = 3034
 
 app.listen(local, ()=> `Serivdor corriendo en ${local}` )
 
