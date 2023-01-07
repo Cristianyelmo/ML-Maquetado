@@ -1,0 +1,147 @@
+
+.register_main{
+    background-color: var(--Gris_claro);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+.register_usuario input {
+    width: 100%;
+   margin: 5px 0px;
+    border: none;
+    padding: 8px;
+}
+
+
+
+.register_perfil_usuario {
+display: flex;
+justify-content: space-between;
+margin-bottom: 8px;
+
+
+
+}
+.register_perfil_usuario label{
+    background-color: white;
+    padding: 10px;
+    color: rgb(143, 143, 143);
+    border-radius: 4px;
+    width: 48%;
+   
+}
+
+
+.register_h2{
+    text-align: center;
+    margin: 13px;
+    color: var(----Gris_oscuro);
+    font-family: var(--Tipografia);
+}
+
+
+
+.register_intereses{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.register_intereses label{
+    margin:   10px 0px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.register_contraseña label{
+    background-color: white;
+    padding: 10px;
+    color: rgb(143, 143, 143);
+    border-radius: 4px;
+    width: 100%;
+   
+}
+
+.register_contraseña input{
+    
+    width: 100%;
+    margin: 5px 0px;
+     border: none;
+     padding: 8px;
+   
+}
+
+
+.register_registrar{
+    width: 100%;
+    border: none;
+    background-color: var(--Celeste);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+
+.register_borrar{
+    width: 100%;
+    border: none;
+    background-color: rgb(192, 36, 36);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+form{
+   
+    max-width: 498px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+
+
+.register_profile--imagen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+
+
+.register_img{
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+
+
+.register_registrar a {
+    color: white;
+}
+
+
+.register_link{
+    color:var(--Azul)
+}
+
+
+
+.input_enviar_borrar input{
+    border:none;
+    background-color: transparent;
+    color:white;
+}
+
+
+
+
