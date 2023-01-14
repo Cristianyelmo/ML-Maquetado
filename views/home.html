@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/c63e399f09.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
 <body class="home">
@@ -86,7 +87,7 @@
             <h1 class="home_main_section--titulo">Basado en la ultima vista</h1>
             <div class="home_main_article--contenedor-flex">
      
-                <article class="home_main_article">
+                <article class="home_main_article fit-content scroll-content fadeTop"   >
                     <div class="home_main_article--imagen">
                     <img src="/images/img-cafetera-moulinex.jpg" alt="">
                 </div>
@@ -107,7 +108,7 @@
                 </div>
                 </article>
     
-                <article class="home_main_article">
+                <article class="home_main_article fit-content scroll-content fadeTop">
                     <div class="home_main_article--imagen">
                     <img src="/images/img-macbook-pro-2019.jpg" alt="">
                 </div>
@@ -121,7 +122,7 @@
                     <h3 class="home_main_descripciones">MacBook Pro 2019</h3>
                 </div>
                 </article>
-                <article class="home_main_article">
+                <article class="home_main_article fit-content scroll-content fadeTop" >
                     <div class="home_main_article--imagen">
                     <img src="/images/img-samsung-galaxy-s10.jpg" alt="">
                     </div>
@@ -135,7 +136,7 @@
                    </div>
                 </article>
     
-                <article class="home_main_article">
+                <article class="home_main_article fit-content scroll-content fadeTop">
                     <div class="home_main_article--imagen">
                     <img src="/images/img-tv-samsung-smart.jpg" alt="">
                     </div>
@@ -158,7 +159,7 @@
             <div class="home_main_article--contenedor-flex">
                 
                 
-            <article class="home_main_article">
+            <article class="home_main_article fit-content scroll-content fadeTop">
                 <div class="home_main_article--imagen">
                 <img src="/images/img-cafetera-moulinex.jpg" alt="">
             </div>
@@ -179,7 +180,7 @@
             </div>
             </article>
 
-            <article class="home_main_article">
+            <article class="home_main_article fit-content scroll-content fadeTop">
                 <div class="home_main_article--imagen">
                 <img src="/images/img-macbook-pro-2019.jpg" alt="">
             </div>
@@ -193,7 +194,7 @@
                 <h3 class="home_main_descripciones">MacBook Pro 2019</h3>
             </div>
             </article>
-            <article class="home_main_article">
+            <article class="home_main_article fit-content scroll-content fadeTop">
                 <div class="home_main_article--imagen">
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="">
                 </div>
@@ -207,7 +208,7 @@
                </div>
             </article>
 
-            <article class="home_main_article">
+            <article class="home_main_article fit-content scroll-content fadeTop">
                 <div class="home_main_article--imagen">
                 <img src="/images/img-tv-samsung-smart.jpg" alt="">
                 </div>
@@ -231,32 +232,58 @@
 
     <footer class="home_footer">
 
+<div class="home_footer_flex">
 
-
-    <section>
+    <section class="footer_caja">
         <i class="fa-solid fa-credit-card" class="home_footer_section_icono"></i>
         <h3 ><b>Pagá con tarjeta o en efectivo</b></h3>
         <p class="home_footer_parrafo">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
             puntos de pago. ¡Y siempre es seguro!</p>
     </section>
-    <section>
+    <section class="footer_caja">
         <i class="fa-solid fa-gift"></i>
         <h3 ><b>Envios gratis desde los 2.500</b></h3>
         <p class="home_footer_parrafo">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
             puntos de pago. ¡Y siempre es seguro!</p>
     </section>
-    <section>
+    <section class="footer_caja">
         <i class="fa-solid fa-shield-halved"></i>
         <h3 ><b>Pagá con tarjeta o en efectivo</b></h3>
         <p class="home_footer_parrafo">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
             puntos de pago. ¡Y siempre es seguro!</p>
     </section>
 
+
+</div>
+
     <p class="home_footer_parrafo_final">Copyright 1999-2020 Mercado Liebre S.R.L</p>
+
+
+
+
     </footer>
 
 
+<script>
 
+
+
+  window.addEventListener('scroll', function()  {
+  let elements = document.getElementsByClassName('scroll-content');
+  let screenSize = window.innerHeight;
+  
+    for(var i = 0; i < elements.length; i++) {
+      let element = elements[i];
+
+      if(element.getBoundingClientRect().top < screenSize) {
+        element.classList.add('visible');
+      } else {
+        element.classList.remove('visible');
+      }
+    }
+});
+
+</script>
 
 
 </body>

@@ -155,6 +155,7 @@
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: 0.3s;
 }
 
 
@@ -229,7 +230,10 @@
 
 .home_main_descripciones{
     font-size: var(--Descripciones);
+   
 }
+
+
 
 
 
@@ -281,12 +285,20 @@
 } */
 
 
+.footer_caja i {
+    color: var(--Celeste);
+    font-size: 40px;
+    margin-top: 30px;
+    transition: 0.5s;
+    
+}
 
- .fa-credit-card:before {
+ /* .fa-credit-card:before {
     content: "\f09d";
     color: var(--Celeste);
     font-size: 40px;
     margin-top: 30px;
+   
 } 
 
 
@@ -304,7 +316,7 @@
     font-size: 40px;
     margin-top: 30px;
 }
-
+ */
 
 
 .home_main_section--titulo{
@@ -371,6 +383,25 @@ background-color: white;
    border-radius: 5px;
   padding-right: 20px;
 }
+
+.fadeTop {
+    opacity: 0; 
+    transform: translate(0, 10vh);
+    transition: all 1s;
+  } 
+
+
+
+    
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+
+  
+  
+  
 
 
 
@@ -479,9 +510,9 @@ background-color: white;
 
 
 
-      .home_main_descripciones{
+   /*    .home_main_descripciones{
        display:none
-    }
+    } */
 
 
     .home_header_logo{
@@ -581,6 +612,122 @@ background-color: white;
       .home_header_buscador {
         width: 30%;
     }
+
+
+
+    
+    
+    
+     
+
+
+     .home_main_article--descripcion i:hover{
+        transform:rotate(-90deg)
+    }
+    
+    
+
+
+    .home_main_section article {
+
+       
+ 
+        box-shadow: none;
+       
+     
+     }
+
+     .home_main_section article:hover {
+
+      
+ 
+        box-shadow: 0px 0px 10px rgb(100,100, 100)
+    
+     
+     }
+
+     
+     .home_footer{
+        
+     }
+
+
+
+
+     
+     .footer_caja:hover i{
+      color: black;
+     }
+
+     
+     .home_footer_flex{
+        display: flex;
+     }
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     .fit-content {
+      
+        height: fit-content;
+       
+          
+        }
+      
+
+
+
+     .home_main_descripciones   {
+      
+  height: 0;
+ 
+    transition: all 0.5s;
+   
+  
+     overflow: hidden; 
+  }
+
+
+   .home_main_article:hover .home_main_descripciones  {
+     
+    height: 50px;
+    
+  } 
+
+ /*  .home_main_article2:hover .home_main_descripciones  {
+     
+    height: 50px;
+    
+  } 
+
+
+  .home_main_article3:hover .home_main_descripciones  {
+     
+    height: 50px;
+    
+  } 
+
+
+
+  .home_main_article4:hover .home_main_descripciones  {
+     
+    height: 50px;
+    
+  }  */
+
+
+  
+  
+ 
 
 
 
